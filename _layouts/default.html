@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>{{ page.title }}</title>
+	<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+</head>
+
+<body>
+	<section class="navbar">
+		<a href="/"><h1>{{ site.title }}</h1></a>
+		<nav>
+			<a href="/About">About</a>
+		</nav>
+	</section>
+	<section>
+		{{ content }}
+	</section>
+	<footer>
+	</footer>
+</body>
+
+</html>

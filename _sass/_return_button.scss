@@ -1,0 +1,27 @@
+.return-button {
+	position: fixed;
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	top: 40px;
+	left: 40px;
+	transform: translate(-50%, -50%);
+	background-color: white;
+	border-radius: 50%;
+	box-shadow: rgba(0, 0, 0, 0.8) 0 0px 8px;
+}
+
+.return-button > div {
+	position: relative;
+	display: block;
+	top: 50%;
+	left: 55%;
+	width: 30%;
+	height: 30%;
+	padding: 0;
+	background-color: transparent;
+	border-style: solid;
+	border-color: black;
+	border-width: 2px 0px 0px 2px;
+	transform: translate(-50%, -50%) rotate(-45deg);
+}

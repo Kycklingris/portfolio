@@ -1,18 +1,19 @@
 .return-button {
+	--custom-width: min(100px, 15vw);
 	position: fixed;
 	display: inline-block;
-	width: 60px;
-	height: 60px;
-	top: 40px;
+	width: var(--custom-width);
+	height: var(--custom-width);
+	top: calc(var(--custom-width) / 2 + 20px);
 	left: inherit;
-	margin-left: 40px;
+	margin-left: calc(var(--custom-width) / 2 + 20px);
 	transform: translate(-50%, -50%);
 	background-color: white;
 	border-radius: 50%;
-	box-shadow: rgba(0, 0, 0, 0.8) 0 0px 8px;
+	box-shadow: rgba(0, 0, 0, 0.8) -1px 3px 8px;
 }
 
-.return-button > div {
+.return-button>div {
 	position: relative;
 	display: block;
 	top: 50%;
@@ -28,11 +29,11 @@
 }
 
 .return-button:hover {
-	box-shadow: rgba(0, 0, 0, 0.6) 0 0px 6px;
+	box-shadow: rgba(0, 0, 0, 0.6) -1px 3px 6px;
 	transform: translate(-50%, -50%) scale(96%);
 }
 
 .return-button:active {
-	box-shadow: rgba(0, 0, 0, 0.4) 0 0px 4px;
+	box-shadow: rgba(0, 0, 0, 0.4) -1px 3px 4px;
 	transform: translate(-50%, -50%) scale(92%);
 }

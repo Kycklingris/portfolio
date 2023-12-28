@@ -1,10 +1,25 @@
 
 .navbar-container {
 	position: sticky;
-	top: 0;
-	width: 100%;
-	box-shadow: rgba(0, 0, 0, 0.2) 0 2px 8px;
+	top: 8px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 16px;
+	margin-bottom: 8px;
+	border-radius: 8px;
+	box-shadow: 11px 10px 70px rgba(0, 0, 0, .15);
 	background-color: white;
+}
+
+@media only screen and (max-width: 768px) {
+	.navbar-container {
+		width: 100%;
+		box-shadow: 0;
+		border-radius: 0;
+		margin-top: 0;
+		top: 0px;
+	}
 }
 
 .navbar {
@@ -22,7 +37,6 @@
 	margin-left: 32px;
 	font-size: 2.5em;
 	text-decoration: none;
-	color: #24292e;
 }
 
 .navbar-title > * {
@@ -30,13 +44,15 @@
 	padding: 0;
 }
 
-.navbar-title:hover, .navbar-option:hover {
-	text-decoration: underline;
-}
 
 .navbar-option {
 	text-decoration: none;
 	color: #24292e;
 	font-size: 2em;
 	margin: 32px;
+}
+
+.navbar-option:hover {
+	text-decoration: underline;
+	font-size: 2.025em;
 }

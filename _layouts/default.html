@@ -2,23 +2,22 @@
 <html lang="en">
 
 <head>
-	<meta charset="utf-8">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>{{ page.title }}</title>
 	<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 </head>
 
-<body>
+<body class="content">
 	<section class="navbar-container">
 		<section class="navbar content">
-			<a href="/" class="navbar-title">
-				<h1>{{ site.title }}</h1>
-			</a>
+			<h1 class="navbar-title">{{ site.title }}</h1>
 			<nav>
 				<a href="/About" class="navbar-option">About</a>
 			</nav>
 		</section>
 	</section>
-	<section class="content">
+	<section>
 		{{ content }}
 	</section>
 	<footer>

@@ -1,7 +1,6 @@
 ---
 layout: project
 title: ECOCIDE
-permalink: /ecocide.html
 ---
 I believe that I did quite well during this project, of course I could have been better at commenting, the eternal struggle, but considering the non-documented, but as I remember it small number of bugs reported and changes requested regarding my code, I am happy with my work.
 

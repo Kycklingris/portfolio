@@ -4,7 +4,8 @@
 	width: 60px;
 	height: 60px;
 	top: 40px;
-	left: 40px;
+	left: inherit;
+	margin-left: 40px;
 	transform: translate(-50%, -50%);
 	background-color: white;
 	border-radius: 50%;
@@ -24,4 +25,14 @@
 	border-color: black;
 	border-width: 2px 0px 0px 2px;
 	transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.return-button:hover {
+	box-shadow: rgba(0, 0, 0, 0.6) 0 0px 6px;
+	transform: translate(-50%, -50%) scale(96%);
+}
+
+.return-button:active {
+	box-shadow: rgba(0, 0, 0, 0.4) 0 0px 4px;
+	transform: translate(-50%, -50%) scale(92%);
 }

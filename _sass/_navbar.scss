@@ -1,6 +1,38 @@
 
 .navbar {
+	position: sticky;
+	top: 0;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background-color: white;
+	box-shadow: rgba(0, 0, 0, 0.2) 0 4px 4px;
+}
+
+.navbar-title {
+	margin: 0;
+	padding: 0;
+	margin-left: 32px;
+	font-size: 2em;
+	text-decoration: none;
+	color: #24292e;
+}
+
+.navbar-title > * {
+	margin: 0;
+	padding: 0;
+}
+
+.navbar-title:hover, .navbar-option:hover {
+	text-decoration: underline;
+}
+
+.navbar-option {
+	text-decoration: none;
+	color: #24292e;
+	font-size: 2em;
+	margin: 32px;
 }

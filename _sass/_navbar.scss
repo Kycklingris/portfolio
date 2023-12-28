@@ -1,22 +1,26 @@
 
-.navbar {
+.navbar-container {
 	position: sticky;
 	top: 0;
+	width: 100%;
+	box-shadow: rgba(0, 0, 0, 0.2) 0 2px 8px;
+	background-color: white;
+}
+
+.navbar {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin: 0;
+	margin: auto;
 	padding: 0;
 	width: 100%;
-	background-color: white;
-	box-shadow: rgba(0, 0, 0, 0.2) 0 4px 4px;
 }
 
 .navbar-title {
 	margin: 0;
 	padding: 0;
 	margin-left: 32px;
-	font-size: 2em;
+	font-size: 2.5em;
 	text-decoration: none;
 	color: #24292e;
 }

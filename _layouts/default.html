@@ -8,13 +8,17 @@
 </head>
 
 <body>
-	<section class="navbar">
-		<a href="/" class="navbar-title"><h1>{{ site.title }}</h1></a>
-		<nav>
-			<a href="/About" class="navbar-option">About</a>
-		</nav>
+	<section class="navbar-container">
+		<section class="navbar content">
+			<a href="/" class="navbar-title">
+				<h1>{{ site.title }}</h1>
+			</a>
+			<nav>
+				<a href="/About" class="navbar-option">About</a>
+			</nav>
+		</section>
 	</section>
-	<section>
+	<section class="content">
 		{{ content }}
 	</section>
 	<footer>

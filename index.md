@@ -8,7 +8,7 @@ title: Malte LN
 	date="2023 September - 4 weeks" 
 	image="rift_breaker.png" 
 	video="5gsygQafOQM" 
-	read-more="/RiftBreaker"
+	read-more="/riftbreaker.html"
 	content=
 "
 Step into the extraordinary world of Rift Breaker, a first-person shooter where you'll confront a malevolent AI that has seized control of your very game.
@@ -26,6 +26,7 @@ Are you ready to break through the rift and reclaim your gaming paradise? “Rif
 	date="2023 May - 7 weeks" 
 	image="ecocide.png" 
 	video="T7aXZeEGoUo"
+	read-more="/ecocide.html"
 	content=
 "
 Long ago nature started to endure the exploits of humanity. Over many centuries it has coped with its own destruction in the name of economic growth. Now, in the era of major industrial expansion, nature’s last untouched grove is in danger, and the awakening of its wrath has come!
@@ -39,6 +40,7 @@ Take on the role as the force of nature & utilize the powers of natural phenomen
 	date="2023 Febuary - 4 weeks" 
 	image="B34-N.png" 
 	video="G3C1li83WUY"
+	read-more="/b34n.html"
 	content=
 "
 B34-N is an asymmetrical top-down cooperative shooter set in a dystopian future where robots and humans live in harmony. But everything is not perfect as it seems, as corrupted AI tries to take over and destroy humanity.

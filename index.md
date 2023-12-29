@@ -29,9 +29,11 @@ Are you ready to break through the rift and reclaim your gaming paradise? “Rif
 	read-more="/projects/ecocide"
 	content=
 "
-Long ago nature started to endure the exploits of humanity. Over many centuries it has coped with its own destruction in the name of economic growth. Now, in the era of major industrial expansion, nature’s last untouched grove is in danger, and the awakening of its wrath has come!
-
-Take on the role as the force of nature & utilize the powers of natural phenomenon, as you swing around defending yourself from the clutches of mans greed by throwing, clawing, & blowing them into oblivion! Or consume them to regain energy to further your rage! All while racking up the highest score!
+Ecocide is a first person ability/grab and throw based defensive action game. It was my third game project at Futuregames.
+- Working with **C++** in **Unreal Engine 5**
+- Ragdoll System
+- Windblast Ability
+- Spike Wall
 "
 %}
 
@@ -43,7 +45,9 @@ Take on the role as the force of nature & utilize the powers of natural phenomen
 	read-more="/projects/b34n"
 	content=
 "
-B34-N is an online multiplayer asymmetrical top-down cooperative shooter. 
-This was our second game project at Futuregames, and can only be described as a failure. However, due to the unique aspect of online multiplayer I feel it is worth showcasing. Particularly since the online was my responsibility.
+B34-N is an online multiplayer top-down cooperative shooter. 
+This was my second game project at Futuregames, and can only be described as a failure. However, due to the unique aspect of online multiplayer I feel it is worth showcasing.
+- Working with **C#** in **Unity**
+- Implementing online networking using the **Mirror** library
 "
 %}

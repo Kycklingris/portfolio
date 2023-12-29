@@ -1,9 +1,15 @@
 .project-content {
 	top: 0;
 	margin: 16px;
+	text-align: center;
 }
 
 .project-title {
 	text-align: center;
 	font-size: 400%;
 }
+
+ul, ol {
+	text-align: initial;
+}
+

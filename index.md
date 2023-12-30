@@ -46,6 +46,6 @@ Ecocide is a first person ability/grab and throw based defensive action game. It
 B34-N is an online multiplayer top-down cooperative shooter. 
 This was my second game project at Futuregames, and can only be described as a failure. However, due to the unique aspect of online multiplayer I feel it is worth showcasing.
 - Working with **C#** in **Unity**
-- Implementing online networking using the **Mirror** library
+- Online networking using the **Mirror** library
 "
 %}

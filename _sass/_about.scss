@@ -40,3 +40,14 @@
 	margin: 0;
 	box-shadow: rgba(0, 0, 0, 0.8) -1px 3px 8px;
 }
+
+.about-contant-section > a {
+	display: flex;
+	margin-left: 10px;
+}
+
+.about-contant-section > a > img {
+	width: 1.5em;
+	aspect-ratio: 1;
+	margin-right: 0.25em;
+}

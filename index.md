@@ -6,7 +6,6 @@ title: Malte LN
 {% include project_card.html 
 	title="Rift Breaker" 
 	date="2023 September - 4 weeks" 
-	image="rift_breaker.png" 
 	video="5gsygQafOQM" 
 	read-more="/projects/riftbreaker"
 	content=
@@ -22,7 +21,6 @@ Rift breaker is a first person shooter with two variations of the same world tha
 {% include project_card.html 
 	title="ECOCIDE" 
 	date="2023 May - 7 weeks" 
-	image="ecocide.png" 
 	video="T7aXZeEGoUo"
 	read-more="/projects/ecocide"
 	content=
@@ -38,7 +36,6 @@ Ecocide is a first person ability/grab and throw based defensive action game. It
 {% include project_card.html 
 	title="B34-N" 
 	date="2023 Febuary - 4 weeks" 
-	image="B34-N.png" 
 	video="G3C1li83WUY"
 	read-more="/projects/b34n"
 	content=

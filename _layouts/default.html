@@ -7,22 +7,18 @@
 	<title>{{ page.title }}</title>
 	<link href='https://fonts.googleapis.com/css?family=Fira Code' rel='stylesheet'>
 	<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+	<meta name="description" content="{{ site.description }}">
+
+	<link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+	<link rel="manifest" href="/assets/site.webmanifest">
+	<link rel="shortcut icon" href="/assets/favicon.ico">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="msapplication-config" content="/assets/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
 </head>
 
-<body class="content">
-	<section class="navbar-container">
-		<section class="navbar content">
-			<h1 class="navbar-title">{{ site.title }}</h1>
-			<nav>
-				<a href="/About" class="navbar-option">About</a>
-			</nav>
-		</section>
-	</section>
-	<section>
-		{{ content }}
-	</section>
-	<footer>
-	</footer>
-</body>
+{{ content }}
 
 </html>

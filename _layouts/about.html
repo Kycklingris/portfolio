@@ -1,0 +1,33 @@
+---
+layout: subpage
+---
+<section class="about-container">
+	<section class="about-content-section">
+		<section>
+			<h1>About</h1>
+			<p>{{ site.description }}</p>
+		</section>
+		<section>
+			<h1>Skills</h1>
+			<ul>
+				{% for skill in site.skills %}
+				<li>{{ skill }}</li>
+				{% endfor %}
+			</ul>
+		</section>
+		<section>
+			<h1>Coding Languages</h1>
+			<ul>
+				{% for language in site.coding_languages %}
+				<li>{{ language }}</li>
+				{% endfor %}
+			</ul>
+		</section>
+		<section>
+			<h1>Contact</h1>
+		</section>
+	</section>
+	<section class="about-image-section">
+		<img src={{ site.personal_image_path }} alt="A picture of my face.">
+	</section>
+</section>

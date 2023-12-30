@@ -26,7 +26,11 @@ description: >- # this means to ignore newlines until "baseurl:"
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://malteln.com" # the base hostname & protocol for your site, e.g. http://example.com
+personal_image_path: "assets/images/square_me.png"
 github_username:  Kycklingris
+linkedin_username: 
+skills: [ "Unreal Engine", "Unity", "Perforce", "Git" ]
+coding_languages: [ "Rust", "C++", "C#", "Javascript", "Typescript" ]
 
 
 sass:

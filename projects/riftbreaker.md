@@ -1,7 +1,10 @@
 ---
 layout: project
 title: Rift Breaker
+group_count: 7
+itch_io_url: https://futuregames.itch.io/rift-breaker
 ---
+(We were 4 programmers)
 # Highscores
 There are two parts to it
 - A simple server that allows for requesting the highscores and submitting your own (I would have called it a REST server, but you can't edit or remove scores), it is written in Rust with [rusqlite](https://github.com/rusqlite/rusqlite) and [actix](https://actix.rs/), and hosted using Docker. There is no security to it whatsoever. [Github](https://github.com/Kycklingris/GP4_Team5_Highscore)
@@ -19,3 +22,12 @@ The world switching is implemented rather naively, purely switching on and off t
 
 The lag spike was caused by lumen recalculating all lighting the first time the world was switched. This was fixed by setting all lights to stationary and baking the light (Due to the time limit only the first level has baked lighting). I also experimented with using lighting scenarios, but the previously mentioned time constraints and there seemingly being no noticable difference in performance caused me to choose the stationary lights instead.
 
+<!-- 
+Mark
+Bryan
+Kim
+Teddy
+Ruben
+Malte
+Kristoffer 
+-->

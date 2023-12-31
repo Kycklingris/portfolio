@@ -10,7 +10,7 @@ title: Malte LN
 	read-more="/projects/riftbreaker"
 	content=
 "
-Rift breaker is a first person shooter with two variations of the same world that can be swapped between. It was my fourth game project at Futuregames.
+Rift breaker is a first person shooter with two variations of the same world that can be swapped between. It was my fourth group game project at Futuregames.
 - Working with **C++** in **Unreal Engine 5**
 - Player weapons
 - World switching
@@ -25,7 +25,7 @@ Rift breaker is a first person shooter with two variations of the same world tha
 	read-more="/projects/ecocide"
 	content=
 "
-Ecocide is a first person ability/grab and throw based defensive action game. It was my third game project at Futuregames.
+Ecocide is a first person ability/grab and throw based defensive action game. It was my third group game project at Futuregames.
 - Working with **C++** in **Unreal Engine 5**
 - Ragdoll System
 - Windblast Ability
@@ -41,7 +41,7 @@ Ecocide is a first person ability/grab and throw based defensive action game. It
 	content=
 "
 B34-N is an online multiplayer top-down cooperative shooter. 
-This was my second game project at Futuregames, and can only be described as a failure. However, due to the unique aspect of online multiplayer I feel it is worth showcasing.
+This was my second group game project at Futuregames, and can only be described as a failure. However, due to the unique aspect of online multiplayer I feel it is worth showcasing.
 - Working with **C#** in **Unity**
 - Online networking using the **Mirror** library
 "

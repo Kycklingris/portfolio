@@ -1,7 +1,10 @@
 ---
 layout: project
 title: ECOCIDE
+group_count: 13
+itch_io_url: https://futuregames.itch.io/ecocidegame
 ---
+(We were 4 programmers)
 # Ragdoll system
 The ragdoll system consists of a couple of features, such as partial ragdoll for limbs, half ragdoll half animation and ragdoll while still using the capsule collider.
 
@@ -55,3 +58,19 @@ The reason for not using just checking for intersection with a cone in front of 
 2. If a enemy is behind another enemy the strength of the windblast should be lowered.
 
 Now, in hindsight it likely would have been enough to check for intersection in a cone and running a single ray/sphere cast between every enemy and the player to check for strength or blockage.
+
+<!-- 
+Dennis Larson  GD
+Filip Ekström  GD
+Mark Victor Laguitan  GD
+Lea Koinberg GA BOD
+Moa Jerneholt GA   SKE
+Gautham Satheesh  GA BOD
+Malte Linde Neveling GP BOD
+Kristoffer Saxmo GP BOD
+Max Pålsson GP SKE
+Simon Persson GP BOD
+Leon Laszlo QA
+Fredrik Modin QA
+Christoffer Siltanen QA 
+-->

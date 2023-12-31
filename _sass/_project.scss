@@ -11,3 +11,22 @@ ul, ol {
 	text-align: initial;
 }
 
+.project-details {
+	display: flex;
+	flex-direction: row;
+	justify-content:center;
+	align-items: center;
+	width: 100%;
+}
+
+.project-details > * {
+	display: flex;
+	margin-left: 16px;
+	margin-right: 16px;
+}
+
+.project-details img {
+	width: 1.5em;
+	aspect-ratio: 1;
+	margin-right: 0.25em;
+}

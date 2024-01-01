@@ -9,7 +9,12 @@ url_text: Itch.io
 # Ragdoll system
 The ragdoll system consists of a couple of features, such as partial ragdoll for limbs, half ragdoll half animation and ragdoll while still using the capsule collider.
 
-![Gif showing partial ragdoll](/assets/projects/ecocide/partial_ragdoll.gif)
+{% include preload_img.html
+  src="/assets/projects/ecocide/partial_ragdoll.gif"
+  width="549px"
+  height="309px"
+  alt="Gif showing partial ragdoll"
+%}
 
 Now, I can't say I am particularly happy with the code quality as I should been using a state machine,
 as can be seen below, there a multiple checks for states and possible transistions. Which would have been easier to manage if I were to have used a state machine.
@@ -60,7 +65,12 @@ The reason for not using just checking for intersection with a cone in front of 
 1. If the windblast is partially blocked by a rock, any enemies behind the rock should not be affected.
 2. If a enemy is behind another enemy the strength of the windblast should be lowered.
 
-![Gif showing partial windblast](/assets/projects/ecocide/partial_windblast.gif)
+{% include preload_img.html
+  src="/assets/projects/ecocide/partial_windblast.gif"
+  width="549px"
+  height="309px"
+  alt="Gif showing partial windblast"
+%}
 
 Now, in hindsight it likely would have been enough to check for intersection in a cone and running a single ray/sphere cast between every enemy and the player to check for strength or blockage.
 

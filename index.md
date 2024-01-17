@@ -5,12 +5,14 @@ title: Malte LN
 
 {% include project_card.html 
 	title="Rendering" 
-	date="2023 November - 3~4 weeks so far" 
+	date="Started November 2023 ~80 hours so far" 
+	image="voxelized.png"
 	read-more="/projects/rendering"
 	content=
 "
-So far I only have about 40 hours according to wakapi in this repository, so there isn't all that much to show currently. My goal with the project is voxel cone tracing similar to [The Tomorrow Children](https://www.gamedeveloper.com/programming/graphics-deep-dive-cascaded-voxel-cone-tracing-in-i-the-tomorrow-children-i-) where both direct and indirect lighting is calculated using vct.
-- Written in **Rust** with **WGPU**
+There isn't all that much to show currently. My goal with the project is voxel cone tracing similar to [The Tomorrow Children](https://www.gamedeveloper.com/programming/graphics-deep-dive-cascaded-voxel-cone-tracing-in-i-the-tomorrow-children-i-) where both direct and indirect lighting is calculated using vct.
+- Working with **Rust** and **WGPU**
+- Compute shader per triangle scanline based voxelization
 - Basic voxel rendering for debugging
 - Basic mesh rendering with diffuse texture
 "

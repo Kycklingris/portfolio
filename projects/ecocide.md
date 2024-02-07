@@ -2,17 +2,16 @@
 layout: project
 title: ECOCIDE
 group_count: 13
-url: https://futuregames.itch.io/ecocidegame
+source_url: https://futuregames.itch.io/ecocidegame
 url_text: Itch.io
 ---
 (We were 4 programmers)
 # Ragdoll system
-The ragdoll system consists of a couple of features, such as partial ragdoll for limbs, half ragdoll half animation and ragdoll while still using the capsule collider.
+The ragdoll system consists a multitude of features, such as partial ragdoll for limbs, half ragdoll half animation and ragdoll while still using the capsule collider for physics.
 
 {% include preload_img.html
   src="/assets/projects/ecocide/partial_ragdoll.gif"
-  width="549px"
-  height="309px"
+  aspect_ratio="549/309"
   alt="Gif showing partial ragdoll"
 %}
 
@@ -59,16 +58,11 @@ if (JustEnteredPhysics)
 ```
 
 # Windblast ability
-Originally it was implemented using a large amount of raycasts uniformly distributed in a circle, this however lead to a noticable drop of fps in unreals profiler. As such it was later replaced with a much smaller amount of sphere casts which was performant enough to where I was unable to find any drops in fps. 
-
-The reason for not using just checking for intersection with a cone in front of the player was granularity, some examples being
-1. If the windblast is partially blocked by a rock, any enemies behind the rock should not be affected.
-2. If a enemy is behind another enemy the strength of the windblast should be lowered.
+Originally it was implemented using a large amount of raycasts uniformly distributed in a circle, this however lead to a noticable drop of fps in unreals profiler. As such it was later replaced with a much smaller amount of sphere casts which was performant enough to where I was unable to notice any spikes in the profiler.
 
 {% include preload_img.html
   src="/assets/projects/ecocide/partial_windblast.gif"
-  width="549px"
-  height="309px"
+  aspect_ratio="549/309"
   alt="Gif showing partial windblast"
 %}
 

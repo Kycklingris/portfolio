@@ -5,7 +5,7 @@ layout: subpage
 <section class="project-content">
 	<section class="project-details">
 		{% if page.group_count %}<section><img src="/assets/icons/people.svg" alt="A icon of people">{{ page.group_count }}</section>{% endif %}
-		{% if page.url and page.url_text %}<a href="{{ page.itch_io_url }}" target="_blank">{{ page.url_text }}</a>{% endif %}
+		{% if page.source_url and page.url_text %}<a href="{{ page.source_url }}" target="_blank">{{ page.url_text }}</a>{% endif %}
 	</section>
 	{{ content }}
 </section>

@@ -15,6 +15,11 @@ url_text: Github
   aspect_ratio="640/360"
   alt="A picture showing the voxelized sponza scene"
 %}
+{% include preload_img.html
+  src="/assets/projects/rendering/smooth_shadows.png"
+  aspect_ratio="2559/1377"
+  alt="A picture showing the non voxelized sponza scene"
+%}
 
 # Voxelization
 My focus has been on the process of voxelization, implemented through a compute shader running per triangle. The triangles dominant axis is calculated; and then the three points are sorted from lowest to highest in the dominant axis. The three edges are voxelized using a algorithm based on [A Fast Voxel Traversal Algorithm for Ray Tracing](http://www.cse.yorku.ca/~amana/research/grid.pdf){:target="_blank"}.

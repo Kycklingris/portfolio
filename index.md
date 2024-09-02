@@ -4,17 +4,32 @@ title: Malte LN
 ---
 
 {% include project_card.html 
+	title="Jackbox style game" 
+	date="June 2024 ~100 hours so far" 
+	image=""
+	read-more="/projects/jackbox style game"
+	content=
+"
+My main personal project with a focus on development tools for the use of modding. It is a multi faceted project that requires work in backend, frontend and game development. Currently reworking the system that connects the Frontend and Host game.
+- Backend built with **ASP.NET Core**, **CoTURN**, **Docker** and **Redis**
+- Frontend built with **Lit** and **JQuery**
+- Host game built with **Godot**
+"
+%}
+
+{% include project_card.html 
 	title="Rendering" 
-	date="Started November 2023 ~80 hours so far" 
-	image="voxelized.png"
+	date="Started November 2023 ~120 hours so far" 
+	image="smooth_shadows.png"
 	read-more="/projects/rendering"
 	content=
 "
 There isn't all that much to show currently. My goal with the project is voxel cone tracing similar to [The Tomorrow Children](https://www.gamedeveloper.com/programming/graphics-deep-dive-cascaded-voxel-cone-tracing-in-i-the-tomorrow-children-i-) where both direct and indirect lighting is calculated using vct.
 - Working with **Rust** and **WGPU**
+- Soft shadows
+- Currently a lot of light leak
 - Compute shader per triangle scanline based voxelization
 - Basic voxel rendering for debugging
-- Basic mesh rendering with diffuse texture
 "
 %}
 

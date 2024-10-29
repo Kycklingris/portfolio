@@ -3,7 +3,7 @@
 		<h2 class="project-card-title">{{ include.title}}</h2>
 		<h3 class="project-card-subtitle">{{ include.date}}</h3>
 		<section>{{ include.content | markdownify }}</section>
-		<a href="{{ include.read-more }}">Read more</a>
+		{% if include.read-more %}<a href="{{ include.read-more }}">Read more</a>{% endif %}
 	</section>
 	<section class="project-card-image">
 		{% if include.image %}<img src="assets/images/{{ include.image }}" alt="{{ include.image-alt }}">{% endif %}

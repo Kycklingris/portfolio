@@ -18,12 +18,12 @@ There are two parts to it
 %}
 
 # Player weapons
-Counter strike style repeatable recoil resets after a specified amount of time; it is fully customizable without touching any code. 
+Repeatable recoil resets after a specified amount of time; it is fully customizable without touching any code. 
 
 {% include preload_img.html
   src="/assets/projects/riftbreaker/spray_patterns.gif"
   aspect_ratio="549/309"
-  alt="Gif showing counter strike style recoil patterns"
+  alt="Gif showing repeatable recoil patterns"
 %}
 
 The animations are easily customizable and allows for both *one bullet at a time* and magazine based reloads.

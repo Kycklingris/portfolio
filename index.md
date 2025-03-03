@@ -5,27 +5,28 @@ title: Malte LN
 
 {% include project_card.html 
 	title="Deck Of Haunts" 
-	date="June 2024 - Current fulltime"
+	date="June 2024 - January 2025"
 	video="1ADA3Ntrr7U"
 	content=
 "
-My current fulltime internship, where I am working on small to medium sized features independently. As I am under an NDA, details will be sparse.
+Deck Of Haunts at it's core is a roguelike deckbuilder. It was my ~8 month long internship during my studies at Futuregames. My work mainly consisted of card related systems, and the cards themselves, but due to the smaller team size I also worked on various other features as well.
 - Working with **C++** in **Unreal Engine 5**
 - **Plastic SCM** for versioning
-- At the time of writing, the system for card data
-- Debug menu
+- The system for the cards
 - Many of the cards
+- Debug menu
 "
 %}
 
 {% include project_card.html 
 	title="Jackbox style game" 
-	date="Started March 2024 ~100 hours so far" 
+	date="Started March 2024 ~100 hours so far"
+	read-more="/projects/jackbox style game"
 	content=
 "
-My main personal project with a focus on development tools for the use of modding. It is a multi faceted project that requires work in backend, frontend and game development. Currently reworking the system that connects the Frontend and Host game.
-- Backend built with **ASP.NET Core**, **CoTURN**, **Docker** and **Redis**
-- Frontend built with **Lit** and **JQuery**
+Currently my main personal project with a focus on development tools for the use of modding. It is a multi faceted project that requires work in backend, frontend and game development.
+- Backend built with **Axum**, **Rust**, **CoTURN**, **Docker** and **Redis** (previously ASP.NET Core)
+- Frontend built with **Typescript**, **Lit** and **XState**
 - Host game built with **Godot** and **C++**
 - **Git** for versioning
 "
@@ -38,7 +39,7 @@ My main personal project with a focus on development tools for the use of moddin
 	read-more="/projects/rendering"
 	content=
 "
-There isn't all that much to show currently. My current goal with the project is for direct and indirect lighting to be calculated using Voxel Cone Tracing.
+There isn't all that much to show currently. I am currently not doing any work on this as I ended up spending more time on managing gpu resources than rendering techniques. If I decide to take it up again, I will most likely be doing work on top of an existing rendering engine such as Bevy.
 - Working with **Rust** and **WGPU**
 - **Git** for versioning
 - Soft shadows

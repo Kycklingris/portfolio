@@ -20,7 +20,7 @@ Deck Of Haunts at it's core is a roguelike deckbuilder. It was my ~8 month long 
 
 {% include project_card.html 
 	title="Jackbox style game" 
-	date="Started March 2024 ~100 hours so far"
+	date="Started March 2024 ~500 hours so far"
 	image="jackbox_style_home.png"
 	read-more="/projects/jackbox style game"
 	content=

@@ -25,10 +25,10 @@ Deck Of Haunts at it's core is a roguelike deckbuilder. It was my ~8 month long 
 	read-more="/projects/jackbox style game"
 	content=
 "
-Currently my main personal project with a focus on development tools for the use of modding. It is a multi faceted project that requires work in backend, frontend and game development.
+Currently my main personal project with a focus on development tools for the use of modding. It is a multi faceted project that requires work in backend, frontend and game development. So far, I have mostly been working on the system for controlling the frontend from godot in a simple and flexible way. The project has changed scope and goals a number of times. As it is a game that I wish to release at some point I am not comfortable with having the source public, although I would happily show more in a private setting.
 - Backend built with **Axum**, **Rust**, **CoTURN**, **Docker** and **Redis** (previously ASP.NET Core)
 - Frontend built with **Typescript**, **Lit** and **XState**
-- Host game built with **Godot** and **C++**
+- Host game built with **Godot** and **C++**, I will be using **GDScript** for the gameplay code
 - **Git** for versioning
 "
 %}

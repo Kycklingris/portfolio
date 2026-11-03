@@ -71,6 +71,11 @@
 	border: 0;
 }
 
+.project-card-image > video {
+	object-fit: cover;
+	background-color: black;
+}
+
 .project-card-read-more {
 	background-color: gray;
 }

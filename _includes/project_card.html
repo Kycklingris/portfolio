@@ -8,5 +8,6 @@
 	<section class="project-card-image">
 		{% if include.image %}<img src="assets/images/{{ include.image }}" alt="{{ include.image-alt }}">{% endif %}
 		{% if include.video %}<iframe src="https://www.youtube.com/embed/{{ include.video }}"></iframe>{% endif %}
+		{% if include.local-video %}<video src="{{ include.local-video }}" poster="{{ include.poster }}" controls playsinline preload="metadata" aria-label="{{ include.image-alt }}"></video>{% endif %}
 	</section>
 </section>

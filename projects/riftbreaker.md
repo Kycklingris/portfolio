@@ -37,7 +37,7 @@ The animations are easily customizable and allows for both *one bullet at a time
 As well as easily replacable hit registration through unreal blueprints or c++; mainly used for the shotgun.
 
 # World Switching
-The world switching is implemented rather naively, purely switching on and off the rendering of half the world. There were two main problems with my approach, the first being the was a noticable lag spike when switching, and level design was difficult as there wasn't any button to swap the visible objects in editor. It did however allow for easier AI development as unlike other approaches the world position of everything stays the same and almost all of the colliders are static, which was the main reason for my decision.
+The world switching toggles the rendering of each half of the world. I chose this approach mainly for the AI: unlike other approaches, the world position of everything stays the same and almost all colliders stay static. The trade-offs were a lag spike on the first switch, and harder level design since there was no in-editor toggle for the visible objects.
 
 The lag spike was caused by lumen recalculating all lighting the first time the world was switched. This was fixed by setting all lights to stationary and baking the light (Due to the time limit only the first level has baked lighting). I also experimented with using lighting scenarios, but the previously mentioned time constraints and there seemingly being no noticable difference between scenarios and just stationary lighting in performance caused me to choose the stationary lights instead.
 

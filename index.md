@@ -7,46 +7,52 @@ title: Malte LN
 	title="Deck Of Haunts" 
 	date="June 2024 - January 2025"
 	video="1ADA3Ntrr7U"
+	read-more="/projects/deck of haunts"
 	content=
 "
-Deck Of Haunts at it's core is a roguelike deckbuilder. It was my ~8 month long internship during my studies at Futuregames. My work mainly consisted of card related systems, and the cards themselves, but due to the smaller team size I also worked on various other features as well.
+Deck Of Haunts is a roguelike deckbuilder, [released on Steam](https://store.steampowered.com/app/3179730/Deck_of_Haunts/) a few months after my ~8 month internship at Mantis Games. I built the card system and many of the cards. Since the team was small I also worked on other features across the game.
 - Working with **C++** in **Unreal Engine 5**
 - **Plastic SCM** for versioning
-- The system for the cards
+- The card system, built from composable requirements and effects
 - Many of the cards
+- Saving, settings UI and card effects
 - Debug menu
+- A year after launch, the team's senior programmer described the card system as 'very robust and flexible when it comes to adding new functionality'
 "
 %}
 
 {% include project_card.html 
-	title="Jackbox style game" 
-	date="Started March 2024 ~500 hours so far"
-	image="jackbox_style_home.png"
+	title="Riff Party" 
+	date="Started March 2024, 700+ hours"
+	local-video="/assets/projects/riff_party/demo_card.mp4"
+	poster="/assets/projects/riff_party/demo_poster.jpg"
+	image-alt="Riff Party gameplay demo"
 	read-more="/projects/jackbox style game"
 	content=
 "
-Currently my main personal project with a focus on development tools for the use of modding. It is a multi faceted project that requires work in backend, frontend and game development. So far, I have mostly been working on the system for controlling the frontend from godot in a simple and flexible way. The project has changed scope and goals a number of times. As it is a game that I wish to release at some point I am not comfortable with having the source public, although I would happily show more in a private setting.
-- Backend built with **Axum**, **Rust**, **CoTURN**, **Docker** and **Redis** (previously ASP.NET Core)
-- Frontend built with **Typescript**, **Lit** and **XState**
-- Host game built with **Godot** and **C++**, I will be using **GDScript** for the gameplay code
+My main personal project: a Jackbox-style party game where players join from their phones, designed from the start to be easily modded, by for example making sure the phone is controllable through single threaded GDScript. It covers the whole stack, from a custom Godot engine module to a Rust backend and the cloud infrastructure it runs on. The backend is live and the game has been playtested. The source is private as I want to release the game, but I'm happy to show more in a private setting.
+- Host game built on a **Godot 4** fork with a custom **C++** engine module. Game modes are written as **GDScript** mods
+- Frontend built with **TypeScript**, **Lit** and **XState**, talking to the host over **WebRTC** and **Protobuf**
+- Backend built with **Rust**, **Axum**, **Redis**, **ZeroMQ** and **CoTURN**
+- Infrastructure as code with **OpenTofu/Terraform**, deployed by **GitLab CI** and **Docker**
 - **Git** for versioning
 "
 %}
 
 {% include project_card.html 
 	title="Rendering" 
-	date="Started November 2023 ~120 hours so far" 
+	date="Started November 2023, ~120 hours" 
 	image="smooth_shadows.png"
 	read-more="/projects/rendering"
 	content=
 "
-There isn't all that much to show currently. I am currently not doing any work on this as I ended up spending more time on managing gpu resources than rendering techniques. If I decide to take it up again, I will most likely be doing work on top of an existing rendering engine such as Bevy.
+A from-scratch renderer in Rust where I explored GPU voxelization as a base for voxel cone traced lighting. It's paused for now; it taught me a lot about managing GPU resources, and if I pick it up again I'll build on an existing engine such as Bevy so I can focus on the rendering techniques.
 - Working with **Rust** and **WGPU**
 - **Git** for versioning
-- Soft shadows
-- Currently a lot of light leak
 - Compute shader per triangle scanline based voxelization
 - Voxel rendering for debugging
+- Early soft shadows
+- A helper crate with derive macros that cuts down WGPU boilerplate
 "
 %}
 
@@ -79,20 +85,5 @@ Ecocide is a first person ability/grab and throw based defensive action game. It
 - Ragdoll System
 - Windblast Ability
 - Spike Wall
-"
-%}
-
-{% include project_card.html 
-	title="B34-N" 
-	date="2023 Febuary - 4 weeks fulltime" 
-	video="G3C1li83WUY"
-	read-more="/projects/b34n"
-	content=
-"
-B34-N is an online multiplayer top-down cooperative shooter. 
-This was my second group game project at Futuregames, and can only be described as a failure. However, due to the unique aspect of online multiplayer I feel it is worth showcasing.
-- Working with **C#** in **Unity**
-- **Git** for versioning
-- Online networking using the **Mirror** library
 "
 %}

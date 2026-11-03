@@ -15,8 +15,7 @@ The ragdoll system consists a multitude of features, such as partial ragdoll for
   alt="Gif showing partial ragdoll"
 %}
 
-Now, I can't say I am particularly happy with the code quality as I should been using a state machine,
-as can be seen below, there a multiple checks for states and possible transistions. Which would have been easier to manage if I were to have used a state machine.
+The core of the update logic is below. Looking back, the growing number of state checks and transitions is a clear case for a proper state machine, which is how I would structure it today.
 
 ```cpp
 // Check if physics should be turned off
@@ -58,7 +57,7 @@ if (JustEnteredPhysics)
 ```
 
 # Windblast ability
-Originally it was implemented using a large amount of raycasts uniformly distributed in a circle, this however lead to a noticable drop of fps in unreals profiler. As such it was later replaced with a much smaller amount of sphere casts which was performant enough to where I was unable to notice any spikes in the profiler.
+The first version used a large number of raycasts uniformly distributed in a circle, which showed up as a noticeable FPS drop in Unreal's profiler. I replaced them with a much smaller number of sphere casts, after which the spikes were gone from the profiler.
 
 {% include preload_img.html
   src="/assets/projects/ecocide/partial_windblast.gif"
@@ -66,7 +65,7 @@ Originally it was implemented using a large amount of raycasts uniformly distrib
   alt="Gif showing partial windblast"
 %}
 
-Now, in hindsight it likely would have been enough to check for intersection in a cone and running a single ray/sphere cast between every enemy and the player to check for strength or blockage.
+A further improvement would be a cone intersection test plus a single ray/sphere cast per enemy to check for strength or blockage.
 
 <!-- 
 Dennis Larson  GD

@@ -29,7 +29,7 @@ personal_image_path: "/assets/images/square_me.webp"
 github_username:  Kycklingris
 linkedin_username: Malte Linde Neveling
 linkedin_url: malte-linde-neveling
-resume_url: https://docs.google.com/document/d/1cREJPtgE6_rKuKLgoAKKB1Z-VK0T-d25az_bNAciBAk/export?format=pdf
+resume_url: https://docs.google.com/document/d/1cREJPtgE6_rKuKLgoAKKB1Z-VK0T-d25az_bNAciBAk/export?format=pdf&tab=t.0
 
 skills: [ "Unreal Engine", "Godot", "Unity", "Docker", "Terraform / OpenTofu", "GitLab CI", "Git", "Perforce" ]
 coding_languages: [ "C++", "Rust", "Typescript", "Javascript", "C#", "GDScript" ]
